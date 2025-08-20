@@ -63,3 +63,16 @@ section {
 .pill-list li { background: var(--pill); padding: 0.35rem 0.6rem; border-radius: 999px; border: 1px solid #1f2937; }
 
 footer { text-align: center; color: var(--muted); margin: 2rem 0; }
+
+/* New styles for clickable headers */
+.header-link {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 0;
+  transition: color 0.3s;
+}
+
+.header-link:hover {
+  color: var(--accent);
+}
