@@ -5,174 +5,182 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Lawrence “Louie” Harvey – Resume</title>
   <meta name="description" content="Resume and portfolio for Lawrence Harvey (Louie) – IT Support / Help Desk." />
-  <link rel="preload" href="assets/profile.jpg" as="image">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="container">
-    <div class="hero">
-      <img class="avatar" src="assets/profile.jpg" alt="Headshot of Lawrence Harvey" />
-      <div>
-        <h1>Lawrence Harvey</h1>
-        <p class="tagline">CompTIA A+ | GMC | Self-Taught</p>
-        <p class="links">
-          <a href="mailto:LouieHarvey23@gmail.com">LouieHarvey23@gmail.com</a> ·
-          <a href="https://github.com/HakiLou">github.com/HakiLou</a> ·
-          <a href="https://www.linkedin.com/in/lawrence-harvey">linkedin.com/in/lawrence-harvey</a> ·
-          <a href="https://www.credly.com/users/louie-harvey">credly.com/users/louie-harvey</a> ·
-          <a href="assets/resume.pdf" target="_blank" rel="noopener">Download PDF</a>
-        </p>
+  <!-- Sticky top nav -->
+  <nav class="topnav">
+    <div class="container nav-inner">
+      <a href="#home" class="brand">Lawrence Harvey</a>
+      <div class="links">
+        <a href="#summary">Summary</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
       </div>
     </div>
-  </header>
+  </nav>
 
-  <main class="container">
-    <!-- Summary -->
-    <details open>
-      <summary>Summary</summary>
-      <div class="section-body">
-        <p>
+  <!-- Hero / Profile card -->
+  <header id="home" class="hero-wrap">
+    <div class="container">
+      <div class="profile-card">
+        <div class="avatar-wrap">
+          <img class="avatar" src="assets/profile.jpg" alt="Headshot of Lawrence Harvey">
+        </div>
+
+        <h1>Lawrence “Louie” Harvey</h1>
+        <p class="role">IT Support / Help Desk • CompTIA A+</p>
+
+        <p class="socials">
+          <a href="mailto:LouieHarvey23@gmail.com">✉️</a>
+          <a href="https://github.com/HakiLou">GitHub</a>
+          <a href="https://www.linkedin.com/in/lawrence-harvey">LinkedIn</a>
+          <a href="https://www.credly.com/users/louie-harvey">Credly</a>
+        </p>
+
+        <p class="intro">
           I grew up in Jacksonville, GA, and have always had a passion for learning and problem-solving.
           Baseball was my sport through high school and some college, and I still enjoy watching any team play.
           My hobbies include gaming, exploring trails, watching sports, and diving into tech.
         </p>
-        <p>
-          I earned my bachelor’s degree in Interdisciplinary Studies from Valdosta State University in 2022.
-          I then graduated, with honors, from Georgia Military College in Information Technology and discovered my true passion.
-          Since then, I’ve learned web development with JavaScript, networking fundamentals, and earned my CompTIA A+ certification.
-        </p>
-        <p>
-          I’m committed to continuous growth through new certifications, coding projects, and maintaining my “Blue Team” home lab,
-          which you can explore on my GitHub.
-        </p>
+
+        <div class="cta">
+          <a class="btn" href="assets/resume.pdf" target="_blank">Download CV</a>
+          <a class="btn btn-outline" href="#contact">Contact Me</a>
+        </div>
       </div>
-    </details>
+    </div>
+  </header>
 
-    <!-- Skills -->
-    <details>
-      <summary>Skills</summary>
-      <div class="section-body">
-        <ul class="pill-list">
-          <li>Windows 10/11</li><li>Active Directory (basics)</li><li>Microsoft 365</li><li>Ticketing</li>
-          <li>Networking fundamentals</li><li>Wireshark</li><li>PowerShell (scripting)</li>
-          <li>Customer service</li><li>Troubleshooting</li>
-        </ul>
-      </div>
-    </details>
+  <!-- Main sections -->
+  <main class="container sections">
+    <section id="summary">
+      <h2 class="section-title">SUMMARY</h2>
+      <p>
+        I earned my bachelor’s degree in Interdisciplinary Studies from Valdosta State University in 2022.
+        I then graduated, with honors, from Georgia Military College in Information Technology and discovered my true passion.
+        Since then, I’ve learned web development with JavaScript, networking fundamentals, and earned my CompTIA A+ certification.
+        I’m committed to continuous growth through new certifications, coding projects, and maintaining my “Blue Team” home lab,
+        which you can explore on my GitHub.
+      </p>
+    </section>
 
-    <!-- Experience -->
-    <details>
-      <summary>Experience</summary>
-      <div class="section-body">
-        <article class="item">
-          <header>
-            <h3>Panera Bread</h3>
-            <span class="meta">2025 – Present · Valdosta, GA</span>
-          </header>
-          <ul>
-            <li>Provide fast, friendly service; operate POS to accurately process transactions and handle various payments.</li>
-            <li>Use digital kitchen display systems to track and clear orders in real time for smooth FOH/BOH coordination.</li>
-            <li>Maintain a clean, organized workspace; restock supplies; support team members for efficient service.</li>
-            <li>Develop strong communication, multitasking, and tech skills in a fast-paced setting.</li>
-          </ul>
-        </article>
+    <section id="skills">
+      <h2 class="section-title">SKILLS</h2>
+      <ul class="pill-list">
+        <li>Windows 10/11</li><li>Active Directory (basics)</li><li>Microsoft 365</li><li>Ticketing</li>
+        <li>Networking fundamentals</li><li>Wireshark</li><li>PowerShell (scripting)</li>
+        <li>Customer service</li><li>Troubleshooting</li>
+      </ul>
+    </section>
 
-        <article class="item">
-          <header>
-            <h3>UDI Water</h3>
-            <span class="meta">2025 – Present · Valdosta, GA</span>
-          </header>
-          <ul>
-            <li>Conduct door-to-door outreach to educate homeowners about water purification solutions.</li>
-            <li>Engage prospects, explain system benefits, identify needs, and schedule appointments.</li>
-            <li>Enter and maintain customer data in CRM; leverage tech to enhance lead generation and scheduling.</li>
-            <li>Grew data entry/database management and communication skills.</li>
-          </ul>
-        </article>
+    <section id="experience">
+      <h2 class="section-title">EXPERIENCE</h2>
 
-        <article class="item">
-          <header>
-            <h3>Jersey Mike’s Subs</h3>
-            <span class="meta">2025 – Present · Valdosta, GA</span>
-          </header>
-          <ul>
-            <li>Delivered high-quality customer experiences with attention to detail, professionalism, and adaptability.</li>
-            <li>Provided informal tech support to teammates, resolving minor issues promptly.</li>
-            <li>Served as shift lead overseeing first and second shifts.</li>
-            <li>Assisted manager with daily tasks, inventory tracking improvements, and handling bank transactions.</li>
-          </ul>
-        </article>
-      </div>
-    </details>
-
-    <!-- Projects -->
-    <details>
-      <summary>Projects</summary>
-      <div class="section-body">
-        <article class="item">
-          <header>
-            <h3>Blue Team Home Lab</h3>
-            <span class="meta">2025</span>
-          </header>
-          <ul>
-            <li>Hyper-V lab with Windows Server/Client, Wireshark; planning Snort/Suricata.</li>
-            <li>Simulated attacks from Raspberry Pi 4/MacBook Air (Nmap, Hydra, SEToolkit, Nikto, Metasploit).</li>
-            <li>Built PowerShell monitoring scripts; practiced detection & response workflow.</li>
-          </ul>
-        </article>
-
-        <article class="item">
-          <header>
-            <h3>App Development</h3>
-            <span class="meta">2025</span>
-          </header>
-          <ul>
-            <li>TBD.</li>
-          </ul>
-        </article>
-
-        <article class="item">
-          <header>
-            <h3>Website Resume</h3>
-            <span class="meta">2025</span>
-          </header>
-          <ul>
-            <li>Building skills by utilizing and maintaining different components within the site.</li>
-            <li>Serving both professional use and continuous practice for web/coding fundamentals.</li>
-          </ul>
-        </article>
-      </div>
-    </details>
-
-    <!-- Education -->
-    <details>
-      <summary>Education</summary>
-      <div class="section-body">
+      <article class="item">
+        <header>
+          <h3>Panera Bread</h3>
+          <span class="meta">2025 – Present · Valdosta, GA</span>
+        </header>
         <ul>
-          <li>
-            A.S. Information Technology — Georgia Military College, 2024<br>
-            • GPA 4.0 · Honors · Dean’s List
-          </li>
-          <br>
-          <li>B.S. Interdisciplinary Studies — Valdosta State University, 2022</li>
+          <li>Provide fast, friendly service; operate POS to accurately process transactions.</li>
+          <li>Use digital kitchen display systems to track and clear orders in real time.</li>
+          <li>Maintain workspace and support team members to ensure smooth service.</li>
+          <li>Built strong communication and multitasking skills in a fast-paced setting.</li>
         </ul>
-      </div>
-    </details>
+      </article>
 
-    <!-- Certifications -->
-    <details>
-      <summary>Certifications</summary>
-      <div class="section-body">
+      <article class="item">
+        <header>
+          <h3>UDI Water</h3>
+          <span class="meta">2025 – Present · Valdosta, GA</span>
+        </header>
         <ul>
-          <li>CompTIA A+</li>
-          <li>CompTIA Network+ (in progress)</li>
-          <li>CompTIA Security+ (in progress)</li>
+          <li>Conducted door-to-door outreach to educate homeowners on water purification solutions.</li>
+          <li>Engaged prospects, identified needs, and scheduled appointments using CRM software.</li>
+          <li>Entered and maintained customer data accurately; supported lead generation efforts.</li>
+          <li>Developed data entry/database management and communication skills.</li>
         </ul>
-      </div>
-    </details>
+      </article>
+
+      <article class="item">
+        <header>
+          <h3>Jersey Mike’s Subs</h3>
+          <span class="meta">2025 – Present · Valdosta, GA</span>
+        </header>
+        <ul>
+          <li>Delivered high-quality customer experiences with professionalism and adaptability.</li>
+          <li>Provided informal technical support to teammates, resolving issues promptly.</li>
+          <li>Shift lead responsible for overseeing first and second shift workers.</li>
+          <li>Assisted manager with daily operations, inventory tracking, and bank transactions.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="projects">
+      <h2 class="section-title">PROJECTS</h2>
+      <article class="item">
+        <header>
+          <h3>Blue Team Home Lab</h3>
+          <span class="meta">2025</span>
+        </header>
+        <ul>
+          <li>Hyper-V lab with Windows Server/Client, Wireshark; planning Snort/Suricata.</li>
+          <li>Simulated attacks from Raspberry Pi 4/MacBook Air with Nmap, Hydra, SEToolkit, Nikto, Metasploit.</li>
+          <li>Built PowerShell monitoring scripts and practiced detection & response workflows.</li>
+        </ul>
+      </article>
+
+      <article class="item">
+        <header>
+          <h3>App Development</h3>
+          <span class="meta">2025</span>
+        </header>
+        <ul><li>TBD</li></ul>
+      </article>
+
+      <article class="item">
+        <header>
+          <h3>Website Resume</h3>
+          <span class="meta">2025</span>
+        </header>
+        <ul>
+          <li>Built and maintained a personal resume site to showcase skills and projects.</li>
+          <li>Using the project for both professional visibility and ongoing coding practice.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="education">
+      <h2 class="section-title">EDUCATION</h2>
+      <ul>
+        <li>A.S. Information Technology — Georgia Military College, 2024<br>
+          • GPA 4.0 · Honors · Dean’s List
+        </li><br>
+        <li>B.S. Interdisciplinary Studies — Valdosta State University, 2022</li>
+      </ul>
+    </section>
+
+    <section id="certifications">
+      <h2 class="section-title">CERTIFICATIONS</h2>
+      <ul>
+        <li>CompTIA A+</li>
+        <li>CompTIA Network+ (in progress)</li>
+        <li>CompTIA Security+ (in progress)</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">CONTACT</h2>
+      <p>Email: <a href="mailto:LouieHarvey23@gmail.com">LouieHarvey23@gmail.com</a></p>
+    </section>
   </main>
 
-  <footer class="container">
+  <footer class="container site-footer">
     <small>© <span id="year"></span> Lawrence Harvey. All rights reserved.</small>
   </footer>
 
