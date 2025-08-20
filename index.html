@@ -14,132 +14,162 @@
       <img class="avatar" src="assets/profile.jpg" alt="Headshot of Lawrence Harvey" />
       <div>
         <h1>Lawrence Harvey</h1>
-        <p class="tagline">CompTIA A+ | GMC/Self-Taught</p>
+        <p class="tagline">CompTIA A+ | GMC | Self-Taught</p>
         <p class="links">
-          <a href="mailto:youremail@example.com">LouieHarvey23@gmail.com</a> ·
-          <a href="https://github.com/yourusername">https://github.com/HakiLou</a> ·
-          <a href="https://www.linkedin.com/in/yourhandle">www.linkedin.com/in/lawrence-harvey</a> ·
-          <a href="https://www.credly.com">https://www.credly.com/users/louie-harvey</a> ·
+          <a href="mailto:LouieHarvey23@gmail.com">LouieHarvey23@gmail.com</a> ·
+          <a href="https://github.com/HakiLou">github.com/HakiLou</a> ·
+          <a href="https://www.linkedin.com/in/lawrence-harvey">linkedin.com/in/lawrence-harvey</a> ·
+          <a href="https://www.credly.com/users/louie-harvey">credly.com/users/louie-harvey</a> ·
           <a href="assets/resume.pdf" target="_blank" rel="noopener">Download PDF</a>
         </p>
       </div>
     </div>
   </header>
 
-  <main class="container grid">
-    <section aria-labelledby="summary">
-      <h2 id="summary">Summary</h2>
-      <p>
-        I grew up in Jacksonville, GA, and have always had a passion for learning and problem-solving. Baseball was my sport through high school and some college, and I still enjoy watching any team play. My hobbies include gaming, exploring trails, watching sports, and diving into tech.
+  <main class="container">
+    <!-- Summary -->
+    <details open>
+      <summary>Summary</summary>
+      <div class="section-body">
+        <p>
+          I grew up in Jacksonville, GA, and have always had a passion for learning and problem-solving.
+          Baseball was my sport through high school and some college, and I still enjoy watching any team play.
+          My hobbies include gaming, exploring trails, watching sports, and diving into tech.
+        </p>
+        <p>
+          I earned my bachelor’s degree in Interdisciplinary Studies from Valdosta State University in 2022.
+          I then graduated, with honors, from Georgia Military College in Information Technology and discovered my true passion.
+          Since then, I’ve learned web development with JavaScript, networking fundamentals, and earned my CompTIA A+ certification.
+        </p>
+        <p>
+          I’m committed to continuous growth through new certifications, coding projects, and maintaining my “Blue Team” home lab,
+          which you can explore on my GitHub.
+        </p>
+      </div>
+    </details>
 
-I earned my bachelor’s degree in Interdisciplinary Studies from Valdosta State University in 2022. I then graduated, with honors, from Georgia Military College in Information Technology and discovered my true passion. Since then, I’ve learned web development with JavaScript, networking fundamentals, and earned my CompTIA A+ certification.
-
-I’m committed to continuous growth through new certifications, coding projects, and maintaining my “Blue Team” home lab, which you can explore on my GitHub. 
-      </p>
-    </section>
-
-    <section aria-labelledby="skills">
-      <h2 id="skills">Skills</h2>
-      <ul class="pill-list">
-        <li>Windows 10/11</li><li>AD basics</li><li>O365</li><li>Ticketing</li>
-        <li>Networking basics</li><li>Wireshark</li><li>Scripting (PowerShell)</li>
-        <li>Customer service</li><li>Troubleshooting</li>
-      </ul>
-    </section>
-
-    <section aria-labelledby="experience">
-      <h2 id="experience">Experience</h2>
-      <article class="item">
-        <header>
-          <h3>Panera Bread</h3>
-          <span class="meta">2025 – Present · Valdosta, GA</span>
-        </header>
-        <ul>
-          <li>Provide fast, friendly customer service in a fast-paced environment while operating the POS system to accurately process transactions while handling various payments.</li>
-          <li> Utilize the digital kitchen display systems to track and clear orders in real-time, ensuring smooth coordination between front-of-house and kitchen staff.</li>
-          <li> Maintain a clean and organized workspace, restock supplies, and support team members to ensure efficient service and a positive guest experience.</li>
-          <li>Developed strong communication, multitasking and technology skills in a fast-paced setting.</li>
+    <!-- Skills -->
+    <details>
+      <summary>Skills</summary>
+      <div class="section-body">
+        <ul class="pill-list">
+          <li>Windows 10/11</li><li>Active Directory (basics)</li><li>Microsoft 365</li><li>Ticketing</li>
+          <li>Networking fundamentals</li><li>Wireshark</li><li>PowerShell (scripting)</li>
+          <li>Customer service</li><li>Troubleshooting</li>
         </ul>
-      </article>
-      <header>
-          <h3>UDI Water</h3>
-          <span class="meta">2025 – Present · Valdosta, GA</span>
-        </header>
-        <ul>
-          <li>Responsible for conducting door-to-door outreach to educate homeowners about UDI’s water purification solutions.</li>
-          <li>My role involves engaging with potential customers, explaining the benefits of water filtration systems, and identifying their needs.</li>
-          <li>I utilize technology to enhance lead generation and appointment scheduling. I enter and maintain customer data through CRM software.</li>
-          <li>Through this position I have developed strong data entry/database management skills and communication skills.</li>
-        </ul>
-      </article>
-      <header>
-          <h3>Jersey Mike's Sub</h3>
-          <span class="meta">2025 – Present · Valdosta, GA</span>
-        </header>
-        <ul>
-          <li>Provided a high-quality experience for customers while being detail-oriented, professional, timely and adaptable.  
-          <li>Superior customer service, conflict resolver and team-player. Provided technical support to team members, resolving issues promptly. </li>
-          <li>Shift lead responsible for overseeing first and second shift workers.</li>
-          <li>Assisted manager with daily managerial tasks including implementing efficient data input processes to track inventory, and handling bank transactions.</li>
-        </ul>
-      </article>
-      <!-- Add more roles/projects as needed -->
-    </section>
+      </div>
+    </details>
 
-    <section aria-labelledby="projects">
-      <h2 id="projects">Projects</h2>
-      <article class="item">
-        <header>
-          <h3>Blue Team Home Lab</h3>
-          <span class="meta">2025</span>
-        </header>
-        <ul>
-          <li>Hyper-V lab with Windows Server/Client, Wireshark, Snort/Suricata (planned).</li>
-          <li>Simulated attacks from  Raspberry Pi 4/MacBook Air (Nmap, Hydra, SEToolkit, Nikto, Metasploit).</li>
-          <li>Built PowerShell monitoring scripts; practiced detection & response workflow.</li>
-        </ul>
-      </article>
-      <header>
-          <h3>App Devlopment</h3>
-          <span class="meta">2025</span>
-        </header>
-        <ul>
-          <li>TBD.</li>
-        </ul>
-      </article>
-      <header>
-          <h3>Website Resume</h3>
-          <span class="meta">2025</span>
-        </header>
-        <ul>
-          <li>Build coding skills by utlzing and maintaining different applications within the website</li>
-          <li>This will still be used for professional career. It will also keep me grounded in my skill devlopment as I learn new things with making websites/coding.</li>
-        </ul>
-      </article>
-      <article class="item">
-      </article>
-    </section>
+    <!-- Experience -->
+    <details>
+      <summary>Experience</summary>
+      <div class="section-body">
+        <article class="item">
+          <header>
+            <h3>Panera Bread</h3>
+            <span class="meta">2025 – Present · Valdosta, GA</span>
+          </header>
+          <ul>
+            <li>Provide fast, friendly service; operate POS to accurately process transactions and handle various payments.</li>
+            <li>Use digital kitchen display systems to track and clear orders in real time for smooth FOH/BOH coordination.</li>
+            <li>Maintain a clean, organized workspace; restock supplies; support team members for efficient service.</li>
+            <li>Develop strong communication, multitasking, and tech skills in a fast-paced setting.</li>
+          </ul>
+        </article>
 
-    <section aria-labelledby="education">
-      <h2 id="education">Education</h2>
-      <ul>
-        <li>A.S. Information Technology | Georgia Military College, 2024</li>
-        - GPA 4.0<br>
-        - Honors<br>
-        - Dean's List<br>
-        <br>
-        <li>B.S. Interdisciplinary Studies | Valdosta State University, 2022</li>
-      </ul>
-    </section>
+        <article class="item">
+          <header>
+            <h3>UDI Water</h3>
+            <span class="meta">2025 – Present · Valdosta, GA</span>
+          </header>
+          <ul>
+            <li>Conduct door-to-door outreach to educate homeowners about water purification solutions.</li>
+            <li>Engage prospects, explain system benefits, identify needs, and schedule appointments.</li>
+            <li>Enter and maintain customer data in CRM; leverage tech to enhance lead generation and scheduling.</li>
+            <li>Grew data entry/database management and communication skills.</li>
+          </ul>
+        </article>
 
-     <section aria-labelledby="education">
-      <h2 id="education">Certifications</h2>
-      <ul>
-        <li>CompTIA A+ Exams</li>
-        <li>CompTIA Network+ (in progress)</li>
-        <li>CompTIA Security+ (in progress)</li>
-      </ul>
-    </section>
+        <article class="item">
+          <header>
+            <h3>Jersey Mike’s Subs</h3>
+            <span class="meta">2025 – Present · Valdosta, GA</span>
+          </header>
+          <ul>
+            <li>Delivered high-quality customer experiences with attention to detail, professionalism, and adaptability.</li>
+            <li>Provided informal tech support to teammates, resolving minor issues promptly.</li>
+            <li>Served as shift lead overseeing first and second shifts.</li>
+            <li>Assisted manager with daily tasks, inventory tracking improvements, and handling bank transactions.</li>
+          </ul>
+        </article>
+      </div>
+    </details>
+
+    <!-- Projects -->
+    <details>
+      <summary>Projects</summary>
+      <div class="section-body">
+        <article class="item">
+          <header>
+            <h3>Blue Team Home Lab</h3>
+            <span class="meta">2025</span>
+          </header>
+          <ul>
+            <li>Hyper-V lab with Windows Server/Client, Wireshark; planning Snort/Suricata.</li>
+            <li>Simulated attacks from Raspberry Pi 4/MacBook Air (Nmap, Hydra, SEToolkit, Nikto, Metasploit).</li>
+            <li>Built PowerShell monitoring scripts; practiced detection & response workflow.</li>
+          </ul>
+        </article>
+
+        <article class="item">
+          <header>
+            <h3>App Development</h3>
+            <span class="meta">2025</span>
+          </header>
+          <ul>
+            <li>TBD.</li>
+          </ul>
+        </article>
+
+        <article class="item">
+          <header>
+            <h3>Website Resume</h3>
+            <span class="meta">2025</span>
+          </header>
+          <ul>
+            <li>Building skills by utilizing and maintaining different components within the site.</li>
+            <li>Serving both professional use and continuous practice for web/coding fundamentals.</li>
+          </ul>
+        </article>
+      </div>
+    </details>
+
+    <!-- Education -->
+    <details>
+      <summary>Education</summary>
+      <div class="section-body">
+        <ul>
+          <li>
+            A.S. Information Technology — Georgia Military College, 2024<br>
+            • GPA 4.0 · Honors · Dean’s List
+          </li>
+          <br>
+          <li>B.S. Interdisciplinary Studies — Valdosta State University, 2022</li>
+        </ul>
+      </div>
+    </details>
+
+    <!-- Certifications -->
+    <details>
+      <summary>Certifications</summary>
+      <div class="section-body">
+        <ul>
+          <li>CompTIA A+</li>
+          <li>CompTIA Network+ (in progress)</li>
+          <li>CompTIA Security+ (in progress)</li>
+        </ul>
+      </div>
+    </details>
   </main>
 
   <footer class="container">

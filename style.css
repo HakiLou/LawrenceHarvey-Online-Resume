@@ -76,3 +76,31 @@ footer { text-align: center; color: var(--muted); margin: 2rem 0; }
 .header-link:hover {
   color: var(--accent);
 }
+/* Collapsible sections */
+details {
+  background: var(--card);
+  border: 1px solid #1f2937;
+  border-radius: 16px;
+  margin: 1rem 0;
+  overflow: hidden;
+}
+summary {
+  cursor: pointer;
+  padding: 1rem 1.25rem;
+  font-size: 1.25rem;      /* big header */
+  font-weight: 700;
+  list-style: none;
+}
+summary::-webkit-details-marker { display: none; }
+.section-body { padding: 0 1.25rem 1.25rem; }
+
+/* Optional: add a chevron indicator */
+summary::after {
+  content: "▸";
+  float: right;
+  transition: transform .2s ease;
+  transform: translateY(2px) rotate(0deg);
+}
+details[open] summary::after {
+  transform: translateY(2px) rotate(90deg);
+}
