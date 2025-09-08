@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Lawrence “Louie” Harvey – Resume</title>
+  <title>Lawrence "Louie" Harvey – Resume</title>
   <meta name="description" content="Resume and portfolio for Lawrence Harvey (Louie) – IT Support / Help Desk." />
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -13,16 +13,15 @@
   <div class="container nav-inner">
     <a href="#home" class="brand">Lawrence Harvey</a>
     <div class="links">
-      <a href="#experience">Skills</a>
-      <a href="#skills">Experience</a>
-      <a href="#education">Education</a>
-      <a href="#projects">Projects</a>
-      <a href="#certifications">Certifications</a>
-      
+      <a href="#" onclick="showSection('skills')" class="nav-link active">Skills</a>
+      <a href="#" onclick="showSection('experience')" class="nav-link">Experience</a>
+      <a href="#" onclick="showSection('education')" class="nav-link">Education</a>
+      <a href="#" onclick="showSection('projects')" class="nav-link">Projects</a>
+      <a href="#" onclick="showSection('certifications')" class="nav-link">Certifications</a>
+      <a href="#" onclick="showSection('contact')" class="nav-link">Contact</a>
     </div>
   </div>
 </nav>
-
 
   <!-- Hero / Profile card with SUMMARY under photo -->
   <header id="home" class="hero-wrap">
@@ -31,7 +30,7 @@
       <div class="avatar-wrap">
         <img class="avatar" src="assets/profile.jpg" alt="Headshot of Lawrence Harvey">
       </div>
-      <h1>Lawrence “Louie” Harvey</h1>
+      <h1>Lawrence "Louie" Harvey</h1>
       <p class="role">IT Support / Help Desk • CompTIA A+</p>
 
       <div class="socials">
@@ -42,7 +41,7 @@
       </div>
 
       <p class="intro">
-        I’m passionate about tech, problem-solving, and continuous learning. I’ve built a home lab, earned my CompTIA A+, and love helping others with IT challenges.
+        I'm passionate about tech, problem-solving, and continuous learning. I've built a home lab, earned my CompTIA A+, and love helping others with IT challenges.
       </p>
 
       <div class="cta">
@@ -53,9 +52,9 @@
   </div>
 </header>
 
-
-  <!-- Main sections (no separate Summary section) -->  <main class="container sections">
-    <section id="skills">
+  <!-- Main sections -->
+  <main class="container sections">
+    <section id="skills" class="section-content active">
       <h2 class="section-title">SKILLS</h2>
       <ul class="pill-list">
         <li>Windows 10/11</li><li>Active Directory (basics)</li><li>Microsoft 365</li><li>Ticketing</li>
@@ -64,7 +63,7 @@
       </ul>
     </section>
 
-    <section id="experience">
+    <section id="experience" class="section-content">
       <h2 class="section-title">EXPERIENCE</h2>
 
       <article class="item">
@@ -95,7 +94,7 @@
 
       <article class="item">
         <header>
-          <h3>Jersey Mike’s Subs</h3>
+          <h3>Jersey Mike's Subs</h3>
           <span class="meta">2025 – Present · Valdosta, GA</span>
         </header>
         <ul>
@@ -107,7 +106,7 @@
       </article>
     </section>
 
-    <section id="projects">
+    <section id="projects" class="section-content">
       <h2 class="section-title">PROJECTS</h2>
       <article class="item">
         <header>
@@ -141,17 +140,17 @@
       </article>
     </section>
 
-    <section id="education">
+    <section id="education" class="section-content">
       <h2 class="section-title">EDUCATION</h2>
       <ul>
         <li>A.S. Information Technology — Georgia Military College, 2024<br>
-          • GPA 4.0 · Honors · Dean’s List
+          • GPA 4.0 · Honors · Dean's List
         </li><br>
         <li>B.S. Interdisciplinary Studies — Valdosta State University, 2022</li>
       </ul>
     </section>
 
-    <section id="certifications">
+    <section id="certifications" class="section-content">
       <h2 class="section-title">CERTIFICATIONS</h2>
       <ul>
         <li>CompTIA A+</li>
@@ -160,7 +159,7 @@
       </ul>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="section-content">
       <h2 class="section-title">CONTACT</h2>
       <p>Email: <a href="mailto:LouieHarvey23@gmail.com">LouieHarvey23@gmail.com</a></p>
     </section>

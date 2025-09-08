@@ -9,11 +9,26 @@
   justify-content: space-between;
   align-items: center;
 }
+.topnav .brand {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
 .topnav .links a {
   color: white;
   margin: 0 10px;
   text-decoration: none;
   font-weight: 500;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+.topnav .links a:hover {
+  background-color: #555;
+}
+.topnav .links a.active {
+  background-color: #007BFF;
 }
 
 /* Header */
@@ -56,4 +71,71 @@
   background-color: transparent;
   border: 2px solid #007BFF;
   color: #007BFF;
+}
+
+/* Section show/hide functionality */
+.section-content {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.section-content.active {
+  display: block;
+  opacity: 1;
+}
+
+/* Base styling */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.sections {
+  padding: 2rem 0;
+}
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+  text-align: center;
+}
+
+/* Skills pills */
+.pill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+.pill-list li {
+  background-color: #007BFF;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-size: 0.9rem;
+}
+
+/* Experience/Projects items */
+.item {
+  background: #f9f9f9;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #007BFF;
+}
+.item header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.item h3 {
+  color: #333;
+  font-size: 1.3rem;
+}
+.item .meta {
+  color: #666;
+  font-style: italic;
 }
