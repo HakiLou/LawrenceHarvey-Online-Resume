@@ -52,7 +52,21 @@
 }
 .socials a {
   margin: 0 8px;
-  font-size: 1.5rem;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.socials a:hover {
+  transform: scale(1.1);
+}
+
+.socials img {
+  filter: brightness(0.7);
+  transition: filter 0.2s ease;
+}
+
+.socials a:hover img {
+  filter: brightness(1);
 }
 .intro {
   margin: 1rem 0;
