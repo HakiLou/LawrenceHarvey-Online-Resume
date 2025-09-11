@@ -13,7 +13,8 @@
   <div class="container nav-inner">
     <a href="#home" class="brand">Lawrence Harvey</a>
     <div class="links">
-      <a href="#" onclick="showSection('skills')" class="nav-link active">Skills</a>
+      <a href="#" onclick="showSection('home')" class="nav-link active">Home</a>
+      <a href="#" onclick="showSection('skills')" class="nav-link">Skills</a>
       <a href="#" onclick="showSection('experience')" class="nav-link">Experience</a>
       <a href="#" onclick="showSection('education')" class="nav-link">Education</a>
       <a href="#" onclick="showSection('projects')" class="nav-link">Projects</a>
@@ -23,46 +24,49 @@
   </div>
 </nav>
 
-  <!-- Hero / Profile card with SUMMARY under photo -->
-  <header id="home" class="hero-wrap">
-  <div class="container">
-    <div class="profile-card centered">
-      <div class="avatar-wrap">
-        <img class="avatar" src="assets/Headshot.png" alt="Headshot of Lawrence Harvey">
-      </div>
-      <h1>Lawrence "Louie" Harvey</h1>
-      <p class="role">IT | Security | Network • CompTIA A+</p>
-
-      <div class="socials">
-  <a href="mailto:LouieHarvey23@gmail.com" aria-label="Email">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gmail.svg" width="28" height="28" alt="Email">
-  </a>
-  <a href="https://github.com/HakiLou" aria-label="GitHub">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg" width="28" height="28" alt="GitHub">
-  </a>
-  <a href="https://www.linkedin.com/in/lawrence-harvey" aria-label="LinkedIn">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg" width="28" height="28" alt="LinkedIn">
-  </a>
-  <a href="https://www.credly.com/users/louie-harvey" aria-label="Credly">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/credly.svg" width="28" height="28" alt="Credly">
-  </a>
-</div>
-
-      <p class="intro">
-        I'm passionate about tech, problem-solving, and continuous learning. I've built a home lab, earned my CompTIA A+, and love helping others with IT challenges.
-      </p>
-
-      <div class="cta">
-        <a class="btn" href="assets/resume.pdf" target="_blank" rel="noopener">DOWNLOAD CV</a>
-        <a class="btn btn-outline" href="#contact">CONTACT ME</a>
-      </div>
-    </div>
-  </div>
-</header>
-
   <!-- Main sections -->
   <main class="container sections">
-    <section id="skills" class="section-content active">
+    <!-- Home Section -->
+    <section id="home" class="section-content active">
+      <div class="home-layout">
+        <div class="home-left">
+          <div class="avatar-wrap">
+            <img class="avatar" src="assets/Headshot.png" alt="Headshot of Lawrence Harvey">
+          </div>
+        </div>
+        <div class="home-right">
+          <h1>Lawrence "Louie" Harvey</h1>
+          <p class="role">IT | Security | Network • CompTIA A+</p>
+
+          <div class="socials">
+            <a href="mailto:LouieHarvey23@gmail.com" aria-label="Email">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gmail.svg" width="28" height="28" alt="Email">
+            </a>
+            <a href="https://github.com/HakiLou" aria-label="GitHub">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg" width="28" height="28" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/lawrence-harvey" aria-label="LinkedIn">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg" width="28" height="28" alt="LinkedIn">
+            </a>
+            <a href="https://www.credly.com/users/louie-harvey" aria-label="Credly">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/credly.svg" width="28" height="28" alt="Credly">
+            </a>
+          </div>
+
+          <p class="intro">
+            I'm passionate about tech, problem-solving, and continuous learning. I've built a home lab, earned my CompTIA A+, and love helping others with IT challenges.
+          </p>
+
+          <div class="cta">
+            <a class="btn" href="assets/resume.pdf" target="_blank" rel="noopener">DOWNLOAD CV</a>
+            <a class="btn btn-outline" href="#" onclick="showSection('contact')">CONTACT ME</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-content">
       <h2 class="section-title">SKILLS</h2>
       <ul class="pill-list">
         <li>Windows 10/11</li><li>Active Directory (basics)</li><li>Microsoft 365</li><li>Ticketing</li>
